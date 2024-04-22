@@ -38,7 +38,7 @@ class AuthService {
     try {
       final GoogleSignInAccount? googleUser = await GoogleSignIn(
               //    clientId:
-              //      '186089200190-254a748aucsv44gbafrq677qbo1qu4tl.apps.googleusercontent.com'
+            
               )
           .signIn();
       if (googleUser != null) {
